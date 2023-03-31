@@ -6,3 +6,4 @@ img = Image.open("C:/Users/SURIYA/Downloads/yannick-pulver-hopX_jpVtRM-unsplash.
 
 st.image(img, use_column_width=True)
 
+
