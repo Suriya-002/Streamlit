@@ -10,7 +10,7 @@ def main():
     df = pd.read_csv("C://Users//SURIYA//Documents//StreamLit//streamlit//code//streamlit-practice//stacked.csv")
     st.dataframe(df)
 
-    fig = px.pie(df, values="Sum", names="lang", title="Pie chart of languages")
+    fig = px.pie(df, values="Sum", title="Pie chart of languages")
     st.plot(fig)
 
 
