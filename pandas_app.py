@@ -1,10 +1,9 @@
 import streamlit as st
 
 import pandas as pd
-from sklearn import datasets
 
-iris = datasets.load_iris()
-df = pd.read_csv(iris)
+
+df = pd.read_csv("iris.csv")
 
 st.dataframe(df)
 st.table(df)
